@@ -13,12 +13,12 @@ const NavForbus = () => {
     <div className="hidden md:block">
         <div className = " mt-4 ml-4 flex flex-row  justify-between ">
           
-            <div className=' flex flex-row ustify-center lg:space-x-3'>
+            <div className=' flex flex-row justify-center lg:space-x-3'>
               <Link href="/business_website" > <Image src="/logo.png" alt='logo' width={50} height={100}/></Link>
               <div className="flex flex-row text-[12px] md:space-x-1 lg:space-x-3">
                   <div className="font-serif  lg:text-[14px] font-light cursor-pointer px-4 rounded-xl hover:bg-blue-500 text-white"><Link href="/pricePage">Price</Link></div>
-                  <div className="font-serif lg:text-[14px] font-light cursor-pointer px-4 rounded-xl hover:bg-blue-500 text-white"><Link href="/">About</Link></div>
-                  <div className="font-serif lg:text-[14px] font-light cursor-pointer px-4 rounded-xl hover:bg-blue-500 text-white"><Link href="/">Blog</Link></div>
+                  <div className="font-serif lg:text-[14px] font-light cursor-pointer px-4 rounded-xl hover:bg-blue-500 text-white"><Link href="/aboutPage">About</Link></div>
+                  <div className="font-serif lg:text-[14px] font-light cursor-pointer px-4 rounded-xl hover:bg-blue-500 text-white"><Link href="/blogPage">Blog</Link></div>
                   <div className="font-serif lg:text-[14px] font-light cursor-pointer px-4 rounded-xl hover:bg-blue-500 text-white"><Link href="/">Wall of Love</Link></div>
                   <div className="font-serif lg:text-[14px] font-light cursor-pointer px-4 rounded-xl hover:bg-blue-500 text-white"><Link href="/">Resouce</Link></div>
               </div>
